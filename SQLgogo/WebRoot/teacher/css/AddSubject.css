@@ -1,0 +1,29 @@
+a, a:link, a:hover, a:active, a:visited {
+            text-decoration: none;
+            color: #666;
+        }
+        a:hover {
+            color: #259;
+        }
+    .testDIV{
+        width: 520px;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+        }
+        	.qes{
+	display: flex;
+	flex-direction: column;
+	
+}
+body{
+	color:#5b5b5b;
+	background-color:#eef5f9;
+}
+.keys input{
+	margin-left:7px;
+}
+.keys{
+	display:flex;
+	    margin-top: 2px;
+}

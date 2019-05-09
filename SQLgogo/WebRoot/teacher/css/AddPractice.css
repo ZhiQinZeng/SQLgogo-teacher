@@ -1,0 +1,106 @@
+        a, a:link, a:hover, a:active, a:visited {
+            text-decoration: none;
+            color: #666;
+        }
+        a:hover {
+            color: #259;
+        }
+    .testDIV{
+        width: 520px;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+        }
+        	.qes{
+	display: flex;
+	flex-direction: column;
+	
+}
+body{
+	color:#5b5b5b;
+	background-color:#eef5f9;
+}
+.qes_demo{
+	display: flex;
+	flex-direction: row;
+	    padding-top: 10px;
+	    border:2px solid;
+   
+    height: 162px;
+    margin-bottom: 15px;
+        border-radius: 3px;
+    border-color:black;
+    margin-top:5px;
+}
+.user{
+	display: flex;
+	flex-direction: column;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+.user_pic{
+    
+    height: 50px;
+    margin-bottom: 20px;
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+}
+.user_name{
+	    margin-left: 10px;
+    
+    font-size: 20px;
+    margin-top: 5px;
+}
+.user_qes{
+	    margin-left: 70px;
+    
+}
+.qes_name{
+       font-size: 25px;
+    font-weight: bold;
+}
+.qes_time{
+	margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.answer{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+    margin-top: 20px;
+}
+.dealPart{
+    display:flex;
+    flex-direction:  column;
+  
+ }
+ .prac_fore{
+   display:flex;
+   
+   align-items: center;
+ }
+#table td:first-of-type{
+    padding-left:30px;
+    
+ }
+#table a{
+cursor: pointer;
+margin-left:5px;
+margin-right:5px;
+}
+.prac_score{
+	
+}
+.score_row{
+	      margin-top: 10px;
+    display: flex;
+}
+.score_row div{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}

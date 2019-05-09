@@ -1,0 +1,96 @@
+  a, a:link, a:hover, a:active, a:visited {
+            text-decoration: none;
+            color: #666;
+        }
+        a:hover {
+            color: #259;
+        }
+    .testDIV{
+        width: 520px;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+        }
+        	.qes{
+	display: flex;
+	flex-direction: column;
+	
+}
+body{
+	color:#5b5b5b;
+}
+.qes_demo{
+	display: flex;
+	flex-direction: row;
+	    padding-top: 10px;
+	    border:2px solid;
+   
+    height: 162px;
+    margin-bottom: 15px;
+        border-radius: 3px;
+    border-color:black;
+    margin-top:5px;
+}
+.user{
+	display: flex;
+	flex-direction: column;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+.user_pic{
+    
+    height: 50px;
+    margin-bottom: 20px;
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+}
+.user_name{
+	    margin-left: 10px;
+    
+    font-size: 20px;
+    margin-top: 5px;
+}
+.user_qes{
+	    margin-left: 70px;
+    
+}
+.qes_name{
+       font-size: 25px;
+    font-weight: bold;
+}
+.qes_time{
+	margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.answer{
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+    margin-top: 20px;
+}
+#table td:first-of-type{
+    padding-left:30px;   
+ }
+#table a{
+cursor: pointer;
+margin-left:5px;
+margin-right:5px;
+}
+
+#table a:hover{
+color:#26c6da
+}
+#table td:nth-of-type(4)
+{
+   padding-left:27px;
+}
+#table td:nth-of-type(5)
+{
+   padding-left:20px;
+}
+#table td:nth-of-type(6)
+{
+  
+}

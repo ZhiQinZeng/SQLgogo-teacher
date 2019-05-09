@@ -1,0 +1,126 @@
+   a, a:link, a:hover, a:active, a:visited {
+            text-decoration: none;
+            color: #666;
+        }
+        a:hover {
+            color: #259;
+        }
+    .testDIV{
+        width: 520px;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+        }
+.qes{
+	display: flex;
+	flex-direction: column;
+	
+}
+.more{
+   width: 86%;
+}
+.bottom_nav{
+	position:fixed;
+	    width: 68%;
+}
+.qes_demo{
+	display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    width: 425px;
+    height: 162px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 5px #8888884d;
+    background-color: white;
+    margin-right:50px
+}
+#containers{
+	    height: 364px;
+}
+.bottom_part{
+	display: flex;
+    align-items: center;
+    position: relative;
+    top: 45px;
+    width: 902px;
+    height: 60px;
+}
+.go_skip{
+    background-color: #1e88e5;
+    color: white;
+    border-radius: 50%;
+    width: 37px;
+    padding-left: 7px;
+    position: relative;
+    left: 11px;
+}
+.go_skip:foucs{
+	 outline: none;
+	 
+    border: unset;
+}
+.skip{
+	
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 3%;
+}
+.qes_part{
+	display:flex;
+	flex-wrap: wrap;
+}
+body{
+	color:#5b5b5b;
+	background-color:#eef5f9;
+}
+
+.user{
+	display: flex;
+	flex-direction: column;
+   margin-left: 30px;
+   margin-top: 10px;
+}
+.user_pic{
+    
+    height: 50px;
+    margin-bottom: 20px;
+    width: 64px;
+    height: 64px;
+    margin-left: 15px;
+}
+.user_name{
+	    margin-left: 10px;
+    padding-left: 18px;
+    font-size: 20px;
+     color:#455a64;
+    margin-top: 5px;
+}
+.user_qes{
+	    margin-left: 70px;
+    
+}
+.qes_name{
+       font-size: 25px;
+    font-weight: bold;
+}
+.qes_time{
+	margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.answer{
+	display: flex;
+	flex-direction: row;
+	
+	    margin-left: 30px;
+    margin-top: 20px;
+}
+.store img{
+    width: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}

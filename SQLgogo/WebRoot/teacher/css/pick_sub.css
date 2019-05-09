@@ -1,0 +1,16 @@
+body{
+	color:#5b5b5b;
+	background-color:#eef5f9;
+}
+.table a{
+	text-decoration:none;
+	color:#5b5b5b;
+}
+.table a:hover{
+	cursor:pointer;
+	color:#26c6da;
+}
+#table td:first-of-type{
+    padding-left:30px;
+    
+ }

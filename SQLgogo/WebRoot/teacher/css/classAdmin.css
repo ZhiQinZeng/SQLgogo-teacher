@@ -1,0 +1,19 @@
+.prac_fore{
+	display: flex;
+}
+body{
+	color:#5b5b5b !important;
+	background-color:#eef5f9 !important;
+}
+.file_button{
+	 display: flex;
+    position: absolute;
+    flex-direction: row-reverse;
+    top: 97%;
+    right: 22px;
+}
+.file_button span{
+	position: relative;
+    left: 111px;
+    color: gray;
+}

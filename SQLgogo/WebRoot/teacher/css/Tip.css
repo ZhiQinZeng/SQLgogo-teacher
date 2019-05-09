@@ -1,0 +1,19 @@
+.tip{
+	text-align: center;
+    line-height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    height:210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color:#455a64;
+    box-shadow: 0px 0px 7px #88888838;
+    padding-left: 0;
+}
+.tip a:hover{
+	color:#26c6da !important;
+}
+.tip li{
+	
+}

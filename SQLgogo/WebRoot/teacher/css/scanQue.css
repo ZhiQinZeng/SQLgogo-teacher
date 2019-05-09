@@ -1,0 +1,55 @@
+  a, a:link, a:hover, a:active, a:visited {
+            text-decoration: none !important;
+            outline:none;
+            color:#5b5b5b;
+        }
+        
+button{
+	outline:none;
+}
+
+.prac_names{
+	    display: flex;
+    flex-direction: row;
+        float: right;
+        position: absolute;
+    right: 6%;
+    top: 85%;
+}
+.prac_names button{
+	    margin-left:15px;
+}
+body{
+	color:#5b5b5b !important;
+	background-color:#eef5f9 ;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #327cbb !important;
+    border-color: #337ab7 !important;
+}
+#new_sub:hover {
+    color: #fff;
+    background-color: #eea525 !important;
+    border-color: #eea525 !important; 
+}
+#table a{
+cursor: pointer;
+margin-left:5px;
+margin-right:5px;
+}
+#table a:hover{
+  color:#26da66;
+}
+.fileinput-button{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.fileinput-button span{
+	float: right;
+    position: relative;
+  }
+#fileId:hover{
+	cursor: pointer;
+}

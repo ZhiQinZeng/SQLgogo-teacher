@@ -1,0 +1,118 @@
+.left_ul{
+	width: 260px;
+    margin-left: 210px;
+    height: 300px;
+    margin-top: 30px;
+    cursor:pointer
+}
+
+.left_li{
+	border-bottom: 1px solid #eaeaea;
+	width: 260px;
+	height:53px;
+	background-color:white;
+	display:flex;
+	align-items: center;
+}
+
+.left_li p{
+	margin-left: 20px;
+    margin-top: 10px;
+}
+
+.message_part{
+	width: 50%;
+    height: 90%;
+  
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+}
+.password_part{
+	width: 50%;
+    height: 90%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display:none;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.to_teacher{
+	    width: 50%;
+    height: 90%;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+}
+.message_main{
+    margin-top: 35px;
+    padding-left: 10%;
+	display: flex;
+    flex-direction: column;
+}
+.item{
+	margin-top:30px;
+	display: flex;
+	align-items: center;
+}
+.span_sex{
+	width: 10px;padding-left: 5px;margin-top: 5px;
+}
+#bar{
+	background-color: #3b93e9;
+    width: 4px;
+    height: 35px;
+    position: absolute;
+    left: 210px;
+    top: 38px;
+    }
+.textarea{
+	width: 588px;
+    height: 293px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+    margin: 0px;
+}
+.realname{
+	background-color: #008def;
+		border-color:#008def;
+	width: 201px;
+	margin-top: 15px;
+	position: relative;
+	top: 50px;
+	float: right;
+	right: 20%;
+}
+#fileId:hover{
+	cursor:pointer;
+}
+.fileinput-button{
+	    width: 83px;
+    height: 33px;
+	margin-left: 30px;
+}
+.fileinput-button:hover{
+	cursor:pointer;
+}
+.realname:hover{
+	background-color:#2e88d5 !important;
+	border-color:#2e88d5;
+	outline: none;
+}
+.pwd_modify_confirm{
+	border-color:#008def ;
+}
+.pwd_modify_confirm:hover{
+	background-color:#2e88d5 !important;
+	border-color:#2e88d5;
+	outline: none;
+}

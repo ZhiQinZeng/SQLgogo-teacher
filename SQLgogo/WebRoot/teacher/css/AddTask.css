@@ -1,0 +1,30 @@
+  a, a:link, a:hover, a:active, a:visited {
+            text-decoration: none;
+            color: #666;
+        }
+        a:hover {
+            color: #259;
+        }
+    .testDIV{
+        width: 520px;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+        }
+        	.qes{
+	display: flex;
+	flex-direction: column;
+	
+}
+.qes_name{
+	 
+}
+.qes_name:focus{
+	outline: none;
+	background:none;
+	box-shadow: none;
+	border-color:#ccc;
+}
+body{
+	color:#5b5b5b;
+}
